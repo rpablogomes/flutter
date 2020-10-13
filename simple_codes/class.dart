@@ -14,7 +14,6 @@ class User {
     )
 }    
     
-
 void main() {
   
   User user = new user();
