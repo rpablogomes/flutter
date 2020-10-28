@@ -14,7 +14,7 @@ void main() {
           ),
         child: Image.asset(
           "images/universe.jpg",
-          fit: BoxFit.contains,
+          fit: BoxFit.contains
 
           // BoxFit.contains shows the image maintaining proprieties
           // BoxFit.none cover the screen with the image
