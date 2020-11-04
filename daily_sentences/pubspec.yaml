@@ -51,13 +51,8 @@ flutter:
   #   - images/a_dot_ham.jpeg
 
   assets:
-    - images/universe.jpg
-    - images/sun.jpg
     - images/logo_tali_cadastro.svg
     - images/Img_learn_pg_1.svg
-    - images/circulo_maior.svg
-    - images/circulo_menor.svg
-
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 

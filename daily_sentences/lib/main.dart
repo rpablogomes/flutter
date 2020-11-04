@@ -25,31 +25,29 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
 
-      // padding: EdgeInsets.only(top: 30),
-      // Padding on container
+        // padding: EdgeInsets.only(top: 30),
+        // Padding on container
 
         decoration: BoxDecoration(color: Colors.orange),
         child: Column(children: <Widget>[
           Container(
               transform: Matrix4.translationValues(0.0, -80.0, 0.0),
               decoration: new BoxDecoration(
+                  shape: BoxShape.circle, color: Colors.green),
+              padding: EdgeInsets.all(90.0),
+              child: SvgPicture.asset("images/logo_tali_cadastro.svg",
+                  height: 100, width: 100)),
+          Container(
+              transform: Matrix4.translationValues(0.0, -180.0, 0.0),
+              width: 1200.0,
+              decoration: new BoxDecoration(
                 shape: BoxShape.circle,
                 color: Colors.green,
               ),
               padding: EdgeInsets.all(90.0),
-              child: SvgPicture.asset("images/logo_tali_cadastro.svg",
-                  height: 100, width: 100)),
-              Container(
-                  width: 1900.0,
-                  height: 900.0,
-                  decoration: new BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Colors.green,
-                  ),
-                  padding: EdgeInsets.all(90.0),
-                  child: SvgPicture.asset("images/Img_learn_pg_1.svg")),
+              child: SvgPicture.asset("images/Img_learn_pg_1.svg")),
           Container(
-              transform: Matrix4.translationValues(0.0, -155.0, 0.0),
+              transform: Matrix4.translationValues(0.0, -180.0, 0.0),
               child: Text("Cadastre o seu comércio",
                   style: TextStyle(color: Colors.white, fontSize: 26.0))),
         ]));
